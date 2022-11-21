@@ -7,7 +7,7 @@
 Stručný popis:  
 **Ilustrace projektu, který jsem vytvořil ještě jako ne-programátor.**
 * Jedná se o nekomerční intranetovou aplikaci naprogramovanou tak, aby plnila svůj účel. Což je vyhledání vizualizace a předání plus archivace informací pro zajištění emergency dodávek materiálu na výrobní linku. 
-* Na celém projektu jsme pracoval **sám s občasným mentoringem zkušeného seniora**. jistě je tam vidět, že jsem se u práce mnoho věcí teprve učil.
+* Na celém projektu jsme pracoval **sám s občasným mentoringem zkušeného seniora**. Jistě je tam vidět, že jsem se u práce mnoho věcí teprve učil. včetně samotného Laravelu.
 
 ---
 
