@@ -1,0 +1,365 @@
+html, #contentWrapper {
+
+}
+
+#obsahKontejneru {
+    min-width: 0px;
+}
+
+#divTabletContentContainer {
+    max-width: 850px;
+}
+
+#divQccInfo {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+/*JE TO PRO call system (smart phones on line side)*/
+#divNewCallsContainer {
+    position: absolute;
+    top: 0px;
+    left: 860px;
+}
+
+#divStart {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: lightgreen;
+    text-align: center;
+    margin: 200px 300px 50px 300px;
+    opacity: 0.8;
+}
+
+#divStart:hover {
+    cursor: pointer;
+    border: 4px solid black;
+    opacity: 1;
+}
+
+#divStart:active {
+    opacity: 0.5;
+}
+
+#divStart span {
+    display: block;
+    color: red;
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+#btnShowKanbanPickingDialog {
+    margin-left: 300px;
+    margin-right: 40px;
+}
+
+#divTblHotcall {
+    min-height: 800px;
+}
+
+#tblHotcall, #tblLastHotcall, #tblNewCall, #tblAcceptedCall {
+    border: 2px solid black;
+    border-collapse: collapse;
+    max-width: 800px;
+}
+
+#divLastHotcallHeader, #divNewCallHeader, #divAcceptedCallHeader {
+    margin-top: 20px;
+}
+
+#tblHotcall td, #tblLastHotcall td, #tblNewCall td, #tblAcceptedCall td {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    height: 70px;
+    text-align: center;
+}
+
+#tblHotcall th, #tblLastHotcall th, #tblNewCall th, #tblAcceptedCall th {
+    border: 1px solid black;
+    border-bottom-width: 2px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#tblNewCall td, #tblAcceptedCall td {
+    padding: 3px;
+    font-size: 15px;
+    height: 40px;
+    text-align: center;
+}
+
+#tblNewCall th, #tblAcceptedCall th {
+    border-bottom-width: 2px;
+    padding: 3px;
+    font-size: 12px;
+}
+
+th {
+    background-color: white;
+}
+
+.trRed {
+    background-color: lightcoral;
+}
+
+.trGreen {
+    background-color: lightgreen;
+}
+
+.trOrange {
+    background-color: orange;
+}
+
+.fontRed {
+    color: red;
+}
+
+.divActionButton {
+    text-align: center;
+    line-height: 57px;
+    width: 100px;
+    height: 60px;
+    border: 2px solid;
+}
+
+.divActionButton:action {
+    opacity: 0.5;
+}
+
+.divActionButton:hover {
+    cursor: pointer;
+}
+
+.roundBorder {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.orangeButton {
+    background-color: darkorange;
+    border-color: black;
+    box-shadow: 3px 3px 5px #333;
+}
+
+.greenButton {
+    background-color: forestgreen;
+    border-color: #2b2b2b;
+    box-shadow: 3px 3px 5px #333;
+}
+
+.blueButton {
+    background-color: #007fff;
+    border-color: #003eff;
+    box-shadow: 3px 3px 5px #333;
+    color: white;
+}
+
+.whiteButton {
+    background-color: whitesmoke;
+    border-color: black;
+    box-shadow: 3px 3px 5px #333;
+}
+
+.divBtnCopy, .divBtnWrittenToExcel {
+    line-height: 30px;
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #69d273;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid;
+    box-shadow: 1px 1px 3px #333;
+}
+
+.tdKanban {
+    font-weight: bold;
+}
+
+.tdKanban:hover {
+    cursor: pointer;
+}
+
+#divKeyboardDlg div:first-of-type {
+    float: left;
+    margin-right: 130px;
+}
+
+
+#tblKeyboardDelivered td, #tblKeyboardRemaining td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: #777777;
+}
+
+.tdKey:active {
+    background-color: #aaa !important;
+}
+
+.tdKey:hover {
+    cursor: pointer;
+}
+
+.tdDelete {
+    font-size: 30px !important;
+}
+
+.ui-dialog-titlebar{
+    display: none;
+}
+
+#divKeyboardButtons span{
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#divKeyboardButtons span:hover{
+    cursor: pointer;
+}
+
+#divKeyboardButtons span:active{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#spanKeyboardBack {
+    margin-left: 205px;
+    margin-right: 100px;
+    background-color: lightcoral;
+}
+
+#spanKeyboardOk {
+    background-color: lightgreen;
+}
+
+#divKanbanDetailHeader {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#tblKanbanDetail {
+    border: 2px solid whitesmoke;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tblKanbanDetail td {
+    border: 1px solid whitesmoke;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px;
+}
+
+#divDialogCloseButton {
+    text-align: center;
+    line-height: 57px;
+    width: 100px;
+    height: 60px;
+    border: 2px solid;
+    background-color: #aaaaaa;
+    box-shadow: 3px 3px 5px #333;
+}
+
+#divDialogCloseButton:hover {
+    cursor: pointer;
+}
+
+#divDialogCloseButton:active {
+    opacity: 0.7;
+}
+
+#btnClearKanbanPicking {
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#btnCloseKanbanPickingDialog {
+    margin-left: 160px;
+}
+
+#tblKanbanPicking {
+    border: 2px solid black;
+    border-collapse: collapse;
+    max-width: 800px;
+}
+
+#tblKanbanPicking td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.noBorder {
+    border-color: white !important;
+}
+
+.tdKanbanPickingStatus {
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding: 0px !important;
+}
+
+.tdKanbanPickingStatus:active{
+    background-color: #ddd;
+}
+
+.tdRotate {
+    font-weight: bold;
+}
+
+.backgroundBlack {
+    background-color: #333333;
+}
+
+/*#spanBatteryStatus {
+    padding: 10px 0px 0px 14px;
+    display: inline-block;
+    width: 55px;
+    height: 40px;
+    background-image: url("../images/battery_icon.png");
+    background-size: 70px 42px;
+    background-repeat: no-repeat;
+}*/
+
+.stopDanger{
+    background-color: yellow;
+    color: red;
+}
+.stopEarly{
+    background-color: orange;
+    color: red;
+}
+.stopNow{
+    background-color: red;
+    color: yellow;
+}
+
+.finish_HC{
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 40%;
+    height:50px;
+    width:80px !important
+}
+
+#divDlgDetail{
+    background: lightblue;
+    opacity: 0.95;
+}

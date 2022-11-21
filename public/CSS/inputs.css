@@ -1,0 +1,99 @@
+input, select{
+    border-radius: 5px;
+}
+.inputWidth_400{
+    width: 400px;
+    text-align: center;
+    font-weight: 700;
+}
+.inputWidth_350{
+    width: 350px;
+    text-align: center;
+    font-weight: 700;
+}
+.inputWidth_340{
+    width: 340px;
+    text-align: center;
+    font-weight: 700;
+}
+.inputWidth_200{
+    width: 200px;
+    text-align: center;
+    font-weight: 700;
+}
+.inputWidth_150{
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
+}
+.inputWidth_140b{
+    width: 140px;
+}
+.inputWidth_100{
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+}
+.inputWidth_70{
+    width: 70px;
+    text-align: center;
+    font-weight: 700;
+}
+.inputWidth_40{
+    width: 40px;
+}
+.inputWidth_10b{
+    width: 10px;
+}
+
+
+.inputHeight_100{
+    height: 100px;
+    font-size: 50px;
+}
+.inputHeight_80{
+    height: 80px;
+    font-size: 70px;
+}
+.inputHeight_70{
+    height: 70px;
+    font-size: 60px;
+}
+.inputHeight_70b{
+    height: 70px;
+/* doesnt work
+    word-wrap: break-word;
+    word-break: break-all;*/
+    font-size: 20px;
+    font-weight: 100;
+}
+.inputHeight_55{
+    height: 55px;
+    font-size: 50px;
+}
+.inputHeight_50{
+    height: 50px;
+    font-size: 50px;
+}
+.inputHeight_25{
+    height: 25px;
+    font-size: 25px;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 30px;
+    font-style: italic;
+    color: #ebeced;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 30px;
+    font-style: italic;
+    color: #ebeced;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: 30px;
+    font-style: italic;
+    color: #ebeced;
+}
+

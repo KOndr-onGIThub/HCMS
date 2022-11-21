@@ -1,0 +1,76 @@
+.user_name{
+    position: absolute;
+    top: -15px;
+    font-size: 0.8em;
+}
+.TESTorDEV{
+    background-color: red;
+    color: yellow;
+}
+.PROD{
+    background-color: white;
+}
+.pro_TEST{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+body{
+    background-color: #7C8776;
+    margin: 0px auto;
+    position: relative;
+    width:1860px
+}
+
+#menu-button{
+    position: absolute;
+    top: -15px;
+    left: 800px;
+    width: 60px;
+    height: 50px;
+    border: 7px solid black;
+    border-radius: 20%;
+    z-index: 97;
+}
+#menu{
+    display: none; /*sic pak nebude videt ani kdyz nepujde JS, ale OK*/
+    position: absolute;
+    font-size: 1.2em;
+    /*width: 250px;*/
+    background: #FFFF9D;
+    z-index: 98;
+}
+.disabled_menu {
+  /*  pointer-events:none; */ /*This makes it not clickable*/
+    opacity:0.4;         /*This grays it out to look disabled*/
+}
+/*.pod_menu{
+    position: absolute;
+    width: 150px;
+    background: #FFFF9D;
+    z-index: 99;
+}*/
+
+.pointer{
+     cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.a_decor1:hover{
+    color: black;
+    background-color: white;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border: solid 5px white;
+    font-weight: 700;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    letter-spacing: 2px;
+    transition: all 0.1s ease 0s;
+}

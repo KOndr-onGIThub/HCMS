@@ -1,0 +1,196 @@
+body{
+    background: #B9CBAF; /* can be changed vith JS*/
+}
+
+table{
+    margin-bottom: 10px;  
+}
+fieldset{
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+#field_noFinished{
+    margin-top: 60px;
+}
+
+#shift{   /* dale to rozvijim v JS */
+    border-radius: 25%;
+}
+
+.reoccurHC{
+    background:red;
+}
+
+#build_out_code:not(:placeholder-shown) {
+        background: black;
+        color: white;
+}
+
+.btn_sent{
+    text-align: right;
+    cursor: pointer; 
+    font-size: 1.8em; 
+    background: #ccc;
+    color: greenyellow;
+    border-radius: 30px;
+    float: right;
+    font-weight: 700;
+}
+
+.btn_update{
+    text-align: right;
+    cursor: pointer; 
+    font-size: 1.8em; 
+    background: #ccc;
+    color: orange;
+    border-radius: 30px;
+    float: right;
+    font-weight: 700;
+}
+
+.btn_delete{
+    text-align: center;
+    cursor: pointer; 
+    font-size: 1.8em; 
+    background: #ccc;
+    color: red;
+    border-radius: 30px;
+    float: left;
+    font-weight: 700;
+}
+
+label{
+    font-weight: bold;
+    font-size: 0.7em;
+    text-shadow: 1px 1px 9px #ffffff;
+}
+
+.text_center{
+    text-align: center;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+.bottom{
+    vertical-align: bottom;
+}
+.radio{
+    vertical-align: bottom;
+    text-align: right;
+    font-size: 1.7em;
+}
+
+.OrderSummYear{
+    font-size: 0.6em;
+}
+.OrderSummMonth{
+    font-size: 0.8em;
+}
+.OrderSummDay{
+    font-size: 1.2em;
+}
+.OrderSummSequence{
+    font-size: 0.6em;
+}
+.OrderSummMros, .OrderSummBox{
+    font-size: 1.3em;
+}
+.OrderSummColumn0{
+    border-right: 3px dashed black;
+}
+.rowWithPcStore{
+    border-top: 3px dashed black;
+}
+#tbody_ovf, #tbody_redpost, #tbody_adresy_zasoby{
+    text-align: center;
+}
+#selectBoxOfVariant{
+    background:red;
+    color: whitesmoke;
+    font-weight: bold;
+   
+}
+
+
+.section_1{
+    border-right: 2px solid grey;
+    padding: 5px;
+    /*margin-top: 50px;*/
+    width: 920px;
+    float: left;
+}
+
+.section_2{
+    border-right: 2px solid grey;
+    padding: 5px;
+    margin-top: -70px;
+    width: 600px;
+    float: left;
+}
+
+.section_3{
+    padding: 5px;
+    margin-top: -70px;
+    width: 270px;
+    float: left;
+}
+
+
+.short_history{
+    margin: 0;
+    position: relative;
+    right: -20px;
+}
+
+
+.clearFloat {
+        clear: both;
+}
+
+
+
+
+/* for JS */
+.hover_bck-gnd_1{ 
+    background-color: #FFFF9D;
+}
+
+.hover_bck-gnd_2{ 
+    background-color: #FF1115;
+    border: 5px solid #FF1115;
+    border-radius: 7px;
+    color: white;
+}
+.divert{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.divertNO{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+.stopDanger{
+    background-color: yellow;
+    color: red;
+}
+.stopEarly{
+    background-color: orange;
+    color: red;
+}
+.stopNow{
+    background-color: red;
+    color: yellow;
+}
+
+
+
+
+/*NEFUNGUJE V IE
+.lbl-vertical{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}*/
+
