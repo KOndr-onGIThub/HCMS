@@ -1,0 +1,3 @@
+FUNGUJE TO? 
+
+xcopy d:\wwwsources\dev\ondrej\App\HCMS\app\*.* d:\wwwsources\test\hcms\app\ /E /V /I /F /Y 
