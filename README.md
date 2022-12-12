@@ -5,11 +5,11 @@
 ---
 
 Stručný popis:  
-**Ilustrace projektu, který jsem vytvořil ještě jako ne-programátor.**
-* Jedná se o nekomerční intranetovou aplikaci naprogramovanou tak, aby plnila svůj účel. Což je vyhledání vizualizace a předání plus archivace informací pro zajištění emergency dodávek materiálu na výrobní linku. 
-* **Na celém projektu jsme pracoval sám s občasným mentoringem zkušeného seniora**. Jistě je tam vidět, že jsem se u práce mnoho věcí teprve učil. včetně samotného Laravelu.
-* Vzhled zkontroluj ve složce **_screenShots**
-Jistě by tam bylo co vylepšovat, ale to nebylo cílem.
+**Ilustrace projektu, který jsem vytvořil ještě jako ne-programátor** (specialista interní logistiky).
+* Jedná se o nekomerční intranetovou aplikaci pro vyhledání, vizualizaci a archivaci informací k dílům pro zajištění emergency dodávek materiálu na výrobní linku.
+* Informace jsou předávány k vykonání pracovníkovi s tabletem, který dle instrukcí dohledá materiál a dodá ho na požadované místo.
+* Na celém projektu jsme pracoval sám s občasným mentoringem zkušeného seniora. Naučil jsem se zde Laravel i jQuery a rozšířil si mnoho dalších postupů.
+* Vzhled ve složce **_screenShots**
 * Dále jsem přihodil kostru aplikace v dalších adresářích.
 
 ---
